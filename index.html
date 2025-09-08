@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Finds – Amazon Affiliate Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #232f3e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      margin: 5px 0 0;
+    }
+    nav {
+      background: #37475a;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(to right, #ff9900, #f0c14b);
+      color: #232f3e;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 1.2rem;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .card h3 {
+      font-size: 1.2rem;
+      margin: 15px 0 10px;
+    }
+    .card p {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      background: #ff9900;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #e68a00;
+    }
+    footer {
+      text-align: center;
+      background: #232f3e;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Smart Finds</h1>
+    <p>Curated Amazon Picks for Your Lifestyle</p>
+  </header>
+
+  <nav>
+    <a href="#kitchen">Kitchen</a>
+    <a href="#tech">Tech</a>
+    <a href="#fitness">Fitness</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Discover the Best Amazon Products</h2>
+    <p>Handpicked gadgets and essentials that make life smarter ✨</p>
+  </section>
+
+  <section class="products" id="kitchen">
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/81WcDmcP6vL._AC_SL1500_.jpg" alt="Air Fryer">
+      <h3>Smart Air Fryer</h3>
+      <p>Crispy fries, zero oil guilt. This air fryer is a must-have for healthy cooking lovers.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B08Q7BLX1N?tag=YOURTAG-21" target="_blank">View on Amazon</a>
+    </div>
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/71NkU6y6dvL._AC_SL1500_.jpg" alt="Coffee Maker">
+      <h3>One-Touch Coffee Maker</h3>
+      <p>Fresh brew every morning with this sleek coffee maker. Perfect for home or office.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B09KNXW7D9?tag=YOURTAG-21" target="_blank">View on Amazon</a>
+    </div>
+  </section>
+
+  <section class="products" id="tech">
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/61d5KFo5vCL._AC_SL1500_.jpg" alt="Smartwatch">
+      <h3>Fitness Smartwatch</h3>
+      <p>Track your workouts, sleep, and heart rate with this stylish smartwatch.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B0B3V69N88?tag=YOURTAG-21" target="_blank">View on Amazon</a>
+    </div>
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/71f8bboRZfL._AC_SL1500_.jpg" alt="Bluetooth Earbuds">
+      <h3>Noise-Cancelling Earbuds</h3>
+      <p>Immerse yourself in music with crystal-clear sound and long battery life.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B09V3GF71Z?tag=YOURTAG-21" target="_blank">View on Amazon</a>
+    </div>
+  </section>
+
+  <section class="products" id="fitness">
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/81jKc7Q8R6L._AC_SL1500_.jpg" alt="Yoga Mat">
+      <h3>Premium Yoga Mat</h3>
+      <p>Eco-friendly, non-slip, and extra thick—ideal for yoga and home workouts.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B08XY47T7C?tag=YOURTAG-21" target="_blank">View on Amazon</a>
+    </div>
+    <div class="card">
+      <img src="https://m.media-amazon.com/images/I/71q8eZU5XyL._AC_SL1500_.jpg" alt="Dumbbell Set">
+      <h3>Adjustable Dumbbell Set</h3>
+      <p>Save space and get a full-body workout with these adjustable dumbbells.</p>
+      <a class="btn" href="https://www.amazon.in/dp/B07XFRJ6PS?tag=YOURTAG-21" target="_blank">View on Amazon</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Smart Finds | This site contains affiliate links (#ad). As an Amazon Associate I earn from qualifying purchases.</p>
+  </footer>
+
+</body>
+</html>
